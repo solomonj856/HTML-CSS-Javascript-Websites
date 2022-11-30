@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+    
+    table, th, td {
+        border:2px solid crimson;
+    }
+    
+</style>
+
+<head>
+    
+<title>Weight Converter</title>
+<link rel="stylesheet" href="styles.css">
+<!-- href="" -->
+    
+</head>
+
+<body>
+    
+<p><a href ="index.html">Home</a></p>
+
+<div class = "weight">
+
+<h1 style= "color:mediumseagreen">Weight Converter</h1>
+<!-- <div class = "calc"> -->
+
+<H2>Pounds to any weight</H2>
+<p>Type a value in the Pounds field to convert the value:</p>
+
+<p>
+
+    
+<label>Pounds</label>
+<input id="inputPounds" type="number" placeholder="Pounds"
+oninput="WeightConverter(this.value), OunceConverter(this.value), GramConverter(this.value)" onchange="WeightConverter(this.value), OunceConverter(this.value), GramConverter(this.value)">
+    
+</p>
+    
+
+    
+<p>Kilograms (kg): <span id="outputKilograms"></span></p>
+
+<p>Ounces (oz): <span id="outputOunces"></span></p>
+    
+<p>Grams (g): <span id="outputGrams"></span></p>
+
+
+    
+<table style ="width:100%">
+<tr>
+    
+<th>Kilograms </th>
+<th>Ounces </th>
+<th>Grams </th>
+    
+</tr>
+
+<tr>
+<td>For an approximate result, divide the mass value by 2.205</td> 
+<td>For an approximate result, multiply the mass value by 16</td> 
+<td>For an approximate result, multiply the mass value by 453.6</td> 
+</tr>
+
+<tr>
+<td>Units: kg</td> 
+<td>Units: oz</td> 
+<td>Units: g</td> 
+</tr>
+
+
+</table>
+
+
+
+<script src= "script.js"></script>
+</div>  
+    
+<img src="weightscale.jpg" alt="Weight" class="image">  
+</body>
+
+</html>

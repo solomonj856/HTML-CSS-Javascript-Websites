@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Canvas</title>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+<h1>Weight Converter</h1>
+
+<div>
+<canvas id="myCanvas" width="500" height="500" style="border:5px solid #199634;"></canvas>
+</div>
+
+
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.fillStyle = "red"
+ctx.fill()
+ctx.moveTo(300,150);
+ctx.stroke();
+</script>
+    
+<script>
+    
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "50px Arial";
+ctx.strokeText("Greatest converter", 10, 60)
+    
+</script>
+
+<svg width = "400" height="100">
+<rect width ="400" height="100" style="fill:rgb(0, 255, 0); stroke-width:10;stroke:rgb(0,0,0)" />
+
+
+    
+</svg>
+
+
+
+</body>
+</html>
+

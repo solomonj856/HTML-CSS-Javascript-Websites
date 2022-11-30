@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Canvas</title>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href = "styles.css">
+</head>
+<body style ="background-color: lightcyan">
+    
+<p><a href ="index.html">Home</a></p>
+
+<div class = "text">
+<h1>Animation and Canvas</h1>
+</div>
+
+<div align="center">
+<canvas id="mycanvas" width="500" height="500" style="border:5px solid red;"></canvas>
+    
+<canvas id="mycanvas2" width ="500" height="500" style="border:5px solid blue;"></canvas>
+</div>
+    
+<script src= "animation.js"></script>
+
+<script src= "animation2.js"></script>
+
+    
+    
+    
+    
+<script>
+var c = document.getElementById("mycanvas2");
+var ctx2 = c.getContext("2d");
+ctx2.beginPath();
+ctx2.arc(475, 50, 80, 0, 2 * Math.PI);
+ctx2.fillStyle = "yellow"
+ctx2.fill()
+ctx2.stroke();
+</script>
+    
+
+    
+<script>
+var c = document.getElementById("mycanvas2")
+var ctx2 = c.getContext("2d");
+ctx2.beginPath();
+ctx2.fillStyle = "lawngreen";
+ctx2.fillRect(0,400, 500, 150)
+ctx2.stroke();
+    
+</script>
+    
+    
+<script>
+var c = document.getElementById("mycanvas2")
+var ctx2 = c.getContext("2d");
+ctx2.beginPath();
+ctx2.fillStyle = "brown";
+ctx2.fillRect(200, 275, 70, 125)
+ctx2.stroke();
+    
+</script>
+    
+    
+<script>
+var c = document.getElementById("mycanvas2")
+var ctx2 = c.getContext("2d");
+ctx2.moveTo(75,275);
+ctx2.lineTo(240, 25);
+ctx2.lineTo(375, 275);
+    
+ctx2.stroke()
+ctx2.fillStyle = "green";
+ctx2.fill();
+    
+</script>
+
+
+<script>
+var c = document.getElementById("mycanvas2");
+var ctx2 = c.getContext("2d");
+ctx2.font = "50px Arial";
+ctx2.strokeText("Greatest tree", 10, 470)
+</script>
+    
+
+    
+
+</body>
+</html>
+

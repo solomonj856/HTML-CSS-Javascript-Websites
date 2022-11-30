@@ -1,0 +1,83 @@
+.title {
+    
+    
+    color: orange;
+    margin-left 10%;
+}
+
+.poem{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px;
+    border-style:groove;
+    padding: 20px;
+}
+.list{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px;
+    border-style:dotted;
+    border-color: deepskyblue;
+    padding: 10px;
+}
+
+.list2{
+    margin-left: 10%;
+    margin-right: 10%;
+    border : 5px;
+    border-style:ridge;
+    border-color: aqua;
+    padding: 10px;
+    
+}
+
+
+.center{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px;
+    border-style:ridge;
+    border-color: deepskyblue;
+    padding: 10px;
+    
+}
+
+.weight{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    border: 8px;
+    border-style: solid;
+    border-bottom-color: forestgreen;
+    border-top-color: forestgreen;
+    border-right-color: red;
+    border-left-color: red;
+    padding: 20px;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: limegreen;
+    border: 15px;
+    border-style: double;
+    padding: 5px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
+
+body{
+    background-color: orange;
+}
